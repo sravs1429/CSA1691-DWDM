@@ -1,0 +1,13 @@
+1.The intervals and corresponding frequencies are as follows. age frequency
+
+1-5 200 5-15 450 15-20 300 20-50 1500 50-80 700 80-110 44
+
+Compute an approximate median value for the data
+
+solution
+
+agefrequencies=c(200,450,300,1500,700,44)
+
+a=median(agefrequencies)
+
+a
