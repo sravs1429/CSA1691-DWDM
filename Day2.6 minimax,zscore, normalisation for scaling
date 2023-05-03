@@ -1,0 +1,11 @@
+c1=c(200,300,400,600,1000)
+max(c1,nm.rm=TRUE)
+min(c1,nm.rm=TRUE)
+z_score_norm<-function(x){(x-mean(x))/sd(x)}
+norm_c1<-z_score_norm(c1)
+cat("Normalised c1:",norm_c1,"\n")
+max_abs_value<-max(abs(c1))
+scale_factor<-10^(ceiling(log10(max_abs_value))+1)
+scaled_c1<-c1/scale_factor
+cat("original c1:",c1,"\n")
+cat("scaled numbers:",scaled_c1,"\n")
