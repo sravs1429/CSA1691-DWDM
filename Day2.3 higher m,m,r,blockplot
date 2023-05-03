@@ -1,0 +1,15 @@
+c1=c(76,35,47,64,95,66,89,36,84,76,35,47,64,95,66,89,36,84)
+c2=c(51,56,84,60,59,70,63,66,50,51,56,84,60,59,70,63,66,50)
+s1=mean(c1)
+s1
+s2=mean(c2)
+s2
+s3=median(c1)
+s3
+s4=median(c2)
+s4
+s5=range(c1)
+s5
+s6=range(c2)
+s6
+boxplot(c1~c2,xlab="x values",ylab="y values",main="sample")
