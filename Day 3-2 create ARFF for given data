@@ -1,0 +1,19 @@
+@relation breakfast
+@attribute bread{yes,no}
+@attribute peanuts{yes,no}
+@attribute milk{yes,no}
+@attribute fruit{yes,no}
+@attribute jam{yes,no}
+@attribute soda{yes,no}
+@attribute chips{yes,no}
+@attribute steak{yes,no}
+@attribute yogurt{yes,no}
+@attribute cheese{yes,no}
+@data
+yes,yes,yes,yes,yes,no,no,no,no,no
+yes,yes,no,yes,yes,yes,yes,yes,yes,no
+yes,no,no,no,yes,yes,yes,yes,no,no
+no,yes,yes,yes,yes,yes,no,no,no,no
+yes,no,yes,no,yes,yes,yes,no,no,no
+no,no,yes,yes,no,yes,yes,no,no,no
+no,yes,no,yes,no,no,no,no,yes,yes
