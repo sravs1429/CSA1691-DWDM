@@ -1,0 +1,17 @@
+@relation dataset
+@attribute height numeric
+@attribute weight numeric
+@attribute gender{male,female}
+@data
+180,60,male
+120,81,male
+125,55,female
+Incorrect:-
+@relation dataset
+@attribute height numeric
+@attribute weight numeric
+@attribute gender{male,female}
+@data
+180,60,female
+120,81,male
+125,55,male
